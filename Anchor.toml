@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+solana_chat_app = "FVB74DqVFkroPzdtt2YxRN8SCCnvk9wUka42Tb1Apn2G"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/dante/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p  -t 1000000 tests/**/*.ts"
