@@ -4,7 +4,6 @@ import { Connection, PublicKey } from '@solana/web3.js';
 import idl from '../idl.json';
 import { ISolanaChat, ISolanaChatPda } from '../interfaces/solana-chat.interface';
 import { Observable, Observer } from 'rxjs';
-import { use } from 'chai';
 
 export class SolanaTransactionService {
     wallet: AnchorWallet;
